@@ -63,6 +63,7 @@ export interface Distribuciones {
   experiencia: Record<Experiencia, number>;
   gradoInstruccion: Record<Grado, number>;
   sexo: Record<Sexo, number>;
+  residePeru: Record<Residencia, number>;
   edad: Record<GrupoEdad, number>;
   perfilProfesional: Record<PerfilProfesional, number>;
 }
